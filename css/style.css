@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    height: 35px;
+    display: flex;
+    background-color: rgb(93, 92, 92);
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.logo {
+    margin-left: 110px;
+    margin-right: auto;
+    padding: 15px 0;
+}
+
+.gnb-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.ikon {
+    display: flex;
+    margin-right: auto;
+}
+
+.ikon li {
+    margin-right: 42px;
+}
+
+.bergabung {
+    margin-right: 42px;
+}
+
+.login {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.login span:first-child {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: rgb(182, 180, 180);
+}
+
+.login span:last-child {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #3aecec;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.right {
+    flex: 1;
+    padding: 20px;
+    background: linear-gradient(50deg,#20D3DD, #6B7474 );
+    border-radius: 15px;
+    height: fit-content;
+    margin-top: 35px;
+}
+
+.right h1 {
+    font-size: 75px; 
+    margin-bottom: 20px;
+}
+
+.right p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 0; 
+}
+
+.right img {
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+
+.left{
+    flex: 1;
+    padding: 0 20px;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+
+.left h1 {
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.left p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
